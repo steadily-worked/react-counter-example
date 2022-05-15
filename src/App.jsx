@@ -41,7 +41,7 @@ const App = () => {
           onChange={handleFirstNameChange}
         />
       </div>
-      <Name firstName={firstName} lastName={lastName} />
+      <Name />
     </div>
   );
 };
