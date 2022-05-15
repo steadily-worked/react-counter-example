@@ -18,7 +18,9 @@ const App = () => {
     <div className="Container">
       <div className="title">Props를 배워봅시다 😎</div>
       <div className="input-container">
-        <label htmlFor="lastName">성</label>
+        <label htmlFor="lastName" className="label">
+          성
+        </label>
         <input
           name="lastName"
           id="lastName"
@@ -26,7 +28,11 @@ const App = () => {
           value={lastName}
           onChange={handleLastNameChange}
         />
-        <label htmlFor="firstName">이름</label>
+      </div>
+      <div className="input-container">
+        <label htmlFor="firstName" className="label">
+          이름
+        </label>
         <input
           name="firstName"
           id="firstName"
